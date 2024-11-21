@@ -500,6 +500,12 @@
       }
       document.addEventListener("DOMContentLoaded", function () {
         const profileImage = document.querySelector(".profile-image");
+        profileImage.style.cursor = "pointer";
+        profileImage.addEventListener("click", function() {
+          const profileModal = document.getElementById("profileModal");
+          profileModal.style.display = "block";
+          document.body.style.overflow = "hidden";
+        });
         if (profileImage) {
           retryLoad(profileImage, profileImage.src);
         }
@@ -754,19 +760,19 @@
         <div class="modal-content">
           <div class="portfolio-images">
             <img
-              src="https://images.pexels.com/photos/5077047/pexels-photo-5077047.jpeg"
+              src="https://github.com/malelemdz/malelemdz.github.io/blob/main/source/diseno-redes/redes_01.jpg?raw=true"
               alt="Social media design example 1"
             /><img
-              src="https://images.pexels.com/photos/5077039/pexels-photo-5077039.jpeg"
+              src="https://github.com/malelemdz/malelemdz.github.io/blob/main/source/diseno-redes/redes_02.jpg?raw=true"
               alt="Social media design example 2"
             /><img
-              src="https://images.pexels.com/photos/5077038/pexels-photo-5077038.jpeg"
+              src="https://github.com/malelemdz/malelemdz.github.io/blob/main/source/diseno-redes/redes_03.jpg?raw=true"
               alt="Social media design example 3"
             /><img
-              src="https://images.pexels.com/photos/5077037/pexels-photo-5077037.jpeg"
+              src="https://github.com/malelemdz/malelemdz.github.io/blob/main/source/diseno-redes/redes_04.jpg?raw=true"
               alt="Social media design example 4"
             /><img
-              src="https://images.pexels.com/photos/5077045/pexels-photo-5077045.jpeg"
+              src="https://github.com/malelemdz/malelemdz.github.io/blob/main/source/diseno-redes/redes_05.jpg?raw=true"
               alt="Social media design example 5"
             />
           </div>
@@ -777,21 +783,24 @@
         <div class="modal-content">
           <div class="portfolio-images">
             <img
-              src="https://images.pexels.com/photos/3062541/pexels-photo-3062541.jpeg"
+              src="https://github.com/malelemdz/malelemdz.github.io/blob/main/source/fotografia/fotografia_01.jpg?raw=true"
               alt="Photography portfolio example 1"
             /><img
-              src="https://images.pexels.com/photos/3014019/pexels-photo-3014019.jpeg"
+              src="https://github.com/malelemdz/malelemdz.github.io/blob/main/source/fotografia/fotografia_02.jpg?raw=true"
               alt="Photography portfolio example 2"
             /><img
-              src="https://images.pexels.com/photos/3014016/pexels-photo-3014016.jpeg"
+              src="https://github.com/malelemdz/malelemdz.github.io/blob/main/source/fotografia/fotografia_03.jpg?raw=true"
               alt="Photography portfolio example 3"
             /><img
-              src="https://images.pexels.com/photos/3014018/pexels-photo-3014018.jpeg"
+              src="https://github.com/malelemdz/malelemdz.github.io/blob/main/source/fotografia/fotografia_04.jpg?raw=true"
               alt="Photography portfolio example 4"
             /><img
-              src="https://images.pexels.com/photos/3014017/pexels-photo-3014017.jpeg"
+              src="https://github.com/malelemdz/malelemdz.github.io/blob/main/source/fotografia/fotografia_05.jpg?raw=true"
               alt="Photography portfolio example 5"
-            />
+            /><img
+            src="https://github.com/malelemdz/malelemdz.github.io/blob/main/source/fotografia/fotografia_06.jpg?raw=true"
+            alt="Photography portfolio example 6"
+          />
           </div>
         </div>
       </div>
@@ -831,7 +840,7 @@
                   allowfullscreen
                 ></iframe>
                 <p class="video-description">
-                  Reel promocional para odontólogo
+                  Video promocional para dentista
                 </p>
               </div>
               <div class="video-item">
@@ -851,7 +860,7 @@
                   allowfullscreen
                 ></iframe>
                 <p class="video-description">
-                  Producción de cortometraje
+                  Edición de cortometraje
                 </p>
               </div>
               <div class="video-item">
@@ -869,19 +878,19 @@
             <div class="video-grid horizontal">
               <div class="video-item">
                 <iframe
-                  src="https://www.youtube.com/embed/hZJMo50TIsM"
+                  src="https://www.youtube.com/embed/hZJMo50TIsM?si=LjDGP1zRhNXqzu2F"
                   frameborder="0"
                   allowfullscreen
                 ></iframe>
-                <p class="video-description">Video memoria de graduación</p>
+                <p class="video-description">Video corporativo institucional</p>
               </div>
               <div class="video-item">
                 <iframe
-                  src="https://www.youtube.com/embed/K0kWWZdV6Ps"
+                  src="https://www.youtube.com/embed/dQw4w9WgXcQ"
                   frameborder="0"
                   allowfullscreen
                 ></iframe>
-                <p class="video-description">Fotovideo de graduación</p>
+                <p class="video-description">Documental de marca</p>
               </div>
               <div class="video-item">
                 <iframe
@@ -911,7 +920,7 @@
           <div class="invitation-cards">
             <div class="invitation-card">
               <img
-                src="https://images.pexels.com/photos/2959192/pexels-photo-2959192.jpeg"
+                src="https://images.pexels.com/photos/7180297/pexels-photo-7180297.jpeg"
                 alt="Invitación de boda elegante"
               />
               <h3>Invitación de Boda</h3>
@@ -925,7 +934,7 @@
             </div>
             <div class="invitation-card">
               <img
-                src="https://images.pexels.com/photos/8106557/pexels-photo-8106557.jpeg"
+                src="https://images.pexels.com/photos/5905565/pexels-photo-5905565.jpeg"
                 alt="Invitación de graduación"
               />
               <h3>Invitación de Graduación</h3>
@@ -939,7 +948,7 @@
             </div>
             <div class="invitation-card">
               <img
-                src="https://images.pexels.com/photos/2072181/pexels-photo-2072181.jpeg"
+                src="https://images.pexels.com/photos/6147276/pexels-photo-6147276.jpeg"
                 alt="Invitación de cumpleaños"
               />
               <h3>Invitación de Cumpleaños</h3>
@@ -953,7 +962,7 @@
             </div>
             <div class="invitation-card">
               <img
-                src="https://images.pexels.com/photos/38999/the-dew-the-priest-christening-38999.jpeg"
+                src="https://images.pexels.com/photos/6147369/pexels-photo-6147369.jpeg"
                 alt="Invitación de bautizo"
               />
               <h3>Invitación de Bautizo</h3>
@@ -967,7 +976,7 @@
             </div>
             <div class="invitation-card">
               <img
-                src="https://images.pexels.com/photos/3334361/pexels-photo-3334361.jpeg"
+                src="https://images.pexels.com/photos/6279792/pexels-photo-6279792.jpeg"
                 alt="Tarjeta navideña"
               />
               <h3>Tarjeta Navideña</h3>
@@ -981,7 +990,7 @@
             </div>
             <div class="invitation-card">
               <img
-                src="https://images.pexels.com/photos/2072185/pexels-photo-2072185.jpeg"
+                src="https://images.pexels.com/photos/7180295/pexels-photo-7180295.jpeg"
                 alt="Tarjeta de novios"
               />
               <h3>Tarjeta de Novios</h3>
@@ -993,6 +1002,33 @@
                 >Ver ejemplo</a
               >
             </div>
+          </div>
+        </div>
+      </div>
+      <div id="profileModal" class="modal">
+        <span class="close-modal">&times;</span>
+        <div class="modal-content">
+          <div class="portfolio-images">
+            <img
+              src="https://images.pexels.com/photos/3062545/pexels-photo-3062545.jpeg"
+              alt="Profile portfolio example 1"
+            />
+            <img
+              src="https://images.pexels.com/photos/3062544/pexels-photo-3062544.jpeg"
+              alt="Profile portfolio example 2"
+            />
+            <img
+              src="https://images.pexels.com/photos/3062543/pexels-photo-3062543.jpeg"
+              alt="Profile portfolio example 3"
+            />
+            <img
+              src="https://images.pexels.com/photos/3062542/pexels-photo-3062542.jpeg"
+              alt="Profile portfolio example 4"
+            />
+            <img
+              src="https://images.pexels.com/photos/3062541/pexels-photo-3062541.jpeg"
+              alt="Profile portfolio example 5"
+            />
           </div>
         </div>
       </div>
